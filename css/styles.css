@@ -13,7 +13,6 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
 }
-
 .button-panel button {
   background-color: var(--element-background-color);
   border: 4px var(--element-background-color) solid;
@@ -61,7 +60,6 @@ button:focus {
   font-size: 26px;
   line-height: 1.17;
   text-decoration: none;
-
   color: #000;
 }
 .logo-secondary-color {
@@ -100,7 +98,6 @@ button:focus {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -131,7 +128,6 @@ button:focus {
   line-height: 1.14;
   font-size: 14px;
 }
-
 .our-crew-list h2,
 .what-we-do {
   font-weight: 700;
@@ -178,7 +174,6 @@ button:focus {
 .our-crew-list {
   background-color: var(--element-background-color);
 }
-
 .contact-info-bottom .contact-info-mail[href='mailto:info@example.com'] {
   text-decoration: none;
 }
@@ -205,13 +200,11 @@ button:focus {
 .navigation-links ul :last-child {
   padding-right: 0px;
 }
-
 .logo {
   margin-left: 215px;
   margin-right: 93px;
   display: inline;
 }
-
 .nav-positioning .nav-contact-info div {
   padding-left: 371px;
   display: flex;
@@ -260,7 +253,6 @@ button:focus {
   width: 33%;
   padding-right: 30px;
 }
-
 .our-crew-styling li {
   display: inline-block;
   width: calc(25% - 10px);
@@ -285,7 +277,6 @@ button:focus {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-/* .footer-styling, */
 .footer-styling a {
   display: flex;
   margin-left: 215px;
@@ -300,11 +291,6 @@ button:focus {
 .nav-optional-border {
   border-bottom: #ececec 1px solid;
 }
-/* .portfolio-styling {
-  display: flex;
-  justify-content: center;
-} */
-
 .button-panel {
   display: flex;
   justify-content: center;
@@ -313,9 +299,6 @@ button:focus {
   padding-right: 8px;
   padding-bottom: 50px;
 }
-/* .portfolio-list {
-  padding-bottom: 30px;
-} */
 .portfolio-list li {
   display: inline-block;
   width: calc(33% - 30px);
@@ -329,7 +312,6 @@ button:focus {
 }
 .portfolio-list p {
   margin: 0px;
-
   padding-right: 30px;
   padding-left: 24px;
   padding-bottom: 20px;
