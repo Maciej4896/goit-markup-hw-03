@@ -38,6 +38,8 @@ button:focus {
   color: #212121;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding: 32px 0;
+  display: block;
 }
 .navigation-links a:hover,
 .navigation-links a:focus,
@@ -110,6 +112,8 @@ button:focus {
   color: #fff;
   font-weight: 900;
   letter-spacing: 0.06em;
+  width: 696px;
+  margin: 0 auto;
 }
 .background-color {
   background-color: var(--secondary-site-background-color);
@@ -135,15 +139,12 @@ button:focus {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
 .our-crew-list h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.17;
-}
-.list {
-  list-style: none;
-  padding: 0px;
 }
 .contact-info:hover,
 .contact-info:focus,
@@ -165,6 +166,7 @@ button:focus {
   border-radius: 4px;
   display: flex;
   align-items: center;
+  margin: 0 auto;
 }
 .main-button button:hover,
 .main-button button:focus {
@@ -183,75 +185,55 @@ button:focus {
 .nav-positioning {
   display: flex;
   align-items: center;
-  padding-top: 24px;
+  width: 1200px;
+  margin: 0 auto;
 }
 .navigation-links {
   display: flex;
 }
 .navigation-links ul {
   display: flex;
-  padding: 0px;
-}
-.navigation-links li {
-  display: flex;
-  justify-content: space-around;
-  padding-right: 46px;
-}
-.navigation-links ul :last-child {
-  padding-right: 0px;
+  gap: 50px;
 }
 .logo {
-  margin-left: 215px;
   margin-right: 93px;
-  display: inline;
-}
-.nav-positioning .nav-contact-info div {
-  padding-left: 371px;
-  display: flex;
 }
 .mail-link {
-  margin-left: 371px;
   margin-right: 50px;
+}
+.nav-contact-info {
+  margin-left: auto;
 }
 .container {
   width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 .main-header-styling {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 230px;
-  padding-bottom: 230px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .main-header-styling h1 {
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 30px;
   text-align: center;
 }
 .description-styling ul {
   display: flex;
-  padding: 0px;
+  gap: 30px;
 }
 .description-styling li {
   margin-top: 10px;
 }
 .description-styling li h3 {
-  margin: 0px;
+  margin: 0;
 }
 .description-styling li p {
   margin-top: 10px;
-  padding-right: 30px;
 }
-.description-styling:last-child {
-  padding-right: 0px;
-}
-.what-we-do-style li {
-  display: inline-block;
-  width: 33%;
-  padding-right: 30px;
+.list-styling {
+  display: flex;
+  gap: 30px;
 }
 .our-crew-styling li {
   display: inline-block;
@@ -260,18 +242,15 @@ button:focus {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   padding-right: 0px;
 }
-.our-crew-styling li:not(:last-child) {
-  gap: 30px;
-}
 .our-crew-styling h3 {
-  margin: 0px;
-  padding: 30px 0px 10px 0px;
+  margin: 0;
+  padding: 30px 0 10px 0;
   text-align: center;
 }
 .our-crew-styling p {
-  padding: 0px 0px 30px 0px;
+  padding: 0 0 30px 0;
   text-align: center;
-  margin: 0px;
+  margin: 0;
 }
 .section {
   padding-top: 94px;
@@ -279,14 +258,20 @@ button:focus {
 }
 .footer-styling a {
   display: flex;
-  margin-left: 215px;
   flex-direction: row;
 }
+.footer-styling li {
+  padding-bottom: 9px;
+}
 .footer-styling a.logo {
+  margin-bottom: 20px;
+  margin-right: 0px;
+}
+.footer-styling {
   padding-top: 60px;
 }
 .footer-styling a.telephone {
-  padding-bottom: 60px;
+  margin-bottom: 60px;
 }
 .nav-optional-border {
   border-bottom: #ececec 1px solid;
@@ -294,6 +279,7 @@ button:focus {
 .button-panel {
   display: flex;
   justify-content: center;
+  gap: 8px;
 }
 .button-panel li {
   padding-right: 8px;
@@ -307,12 +293,32 @@ button:focus {
   margin-bottom: 30px;
 }
 .portfolio-list h2 {
-  margin: 0px;
-  padding: 30px 0px 4px 24px;
+  margin: 0;
+  padding: 30px 0 4px 24px;
 }
 .portfolio-list p {
-  margin: 0px;
+  margin: 0;
   padding-right: 30px;
   padding-left: 24px;
   padding-bottom: 20px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
 }
