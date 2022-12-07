@@ -24,11 +24,11 @@ body {
 }
 .button-panel button {
   background-color: var(--element-background-color);
-  border: 4px var(--element-background-color) solid;
+  border: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  padding: 6px 22px;
+  padding: 6px 25px;
   font-family: 'Roboto', sans-serif;
   cursor: pointer;
   color: var(--main-text-color);
@@ -39,7 +39,6 @@ body {
 button:focus {
   color: #ffffff;
   background-color: var(--brand-color);
-  border: var(--brand-color) 4px solid;
 }
 .navigation-links a {
   font-weight: 500;
@@ -47,6 +46,8 @@ button:focus {
   color: #212121;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding: 32px 0;
+  display: block;
 }
 .navigation-links ul {
   display: flex;
@@ -192,12 +193,11 @@ button:focus {
 }
 .bottom-information address {
   font-style: normal;
+  margin-top: 20px;
 }
 .nav-positioning {
   display: flex;
   align-items: center;
-  width: 1200px;
-  margin: 32px auto;
 }
 .logo {
   margin-right: 93px;
@@ -296,12 +296,7 @@ ol {
 .footer-link:not(:last-child) {
   margin-bottom: 9px;
 }
-.footer-link:first-child {
-  margin-top: 20px;
-}
 .portfolio-text-padding {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 24px;
   border: 1px solid #eeeeee;
+  padding: 20px 24px 20px 24px;
 }
